@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>jPuzzle - JavaScript Game</title>
+</head>
+<body>
+  <main>
+    <div class="puzzle">
+      <div class="left">
+        <h1>jPuzzle v1.0</h1>
+        <div class="items">
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="complete">
+          <h3>Complete this photo:</h3>
+          <img src="assets/images/photo.jpg" alt="jPuzzle" width="150">
+        </div>
+        <div class="drag">
+          <div class="draggable">
+            <img src="./assets/images/10.jpg" alt="item" id="10" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/4.jpg" alt="item" id="4" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/7.jpg" alt="item" id="7" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/14.jpg" alt="item" id="14" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/1.jpg" alt="item" id="1" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/12.jpg" alt="item" id="12" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/16.jpg" alt="item" id="16" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/8.jpg" alt="item" id="8" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/2.jpg" alt="item" id="2" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/13.jpg" alt="item" id="13" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/11.jpg" alt="item" id="11" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/3.jpg" alt="item" id="3" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/5.jpg" alt="item" id="5" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/15.jpg" alt="item" id="15" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/9.jpg" alt="item" id="9" ondragstart="drag(event)" draggable="true">
+          </div>
+          <div class="draggable">
+            <img src="./assets/images/6.jpg" alt="item" id="6" ondragstart="drag(event)" draggable="true">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./assets/js/game.js"></script>
+</body>
+</html>
